@@ -214,3 +214,16 @@ a {
       opacity: 0; 
     }
   }
+/*-------------Animacion Palabras-------------*/
+h4 {
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic; }
+  
+  @keyframes aparecer {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }

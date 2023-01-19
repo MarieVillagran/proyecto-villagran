@@ -280,7 +280,6 @@ function enviarPedido(e) {
   }
 }
 
-const lista = document.querySelector('#listado')
 
 fetch('data.json')
   .then((response) => response.json())
